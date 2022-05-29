@@ -1,0 +1,23 @@
+.titleWrapper {
+  margin: 250px 0 30px 0;
+  display: flex;
+}
+
+.titleLetters {
+  background: #ddd;
+  padding: 15px;
+  border: 2px solid #000;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 2em;
+}
+
+.titleLetters:hover {
+  transform: scale(2);
+  transform: rotateY(1800deg);
+  transition: all 2s linear;
+}
+
+.letterSpace {
+  margin: 0 10px;
+}
